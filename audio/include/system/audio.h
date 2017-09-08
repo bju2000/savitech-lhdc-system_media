@@ -852,6 +852,7 @@ static inline bool audio_is_valid_format(audio_format_t format)
     case AUDIO_FORMAT_DSD:
     case AUDIO_FORMAT_AC4:
     case AUDIO_FORMAT_LDAC:
+    case AUDIO_FORMAT_LHDC:
         return true;
     default:
         return false;
